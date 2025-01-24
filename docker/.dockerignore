@@ -1,11 +1,18 @@
 # Ignore node_modules in frontend
 ../frontend/node_modules/
 
+# Ignore build in frontend
+../frontend/build/
+
 # Ignore vendor in backend
 ../backend/vendor/
 
 # Ignore log files
 ../backend/logs/*
+
+# Ignore lock files
+../backend/composer.lock
+../frontend/package-lock.json
 
 # Ignore environment files
 ../backend/.env
