@@ -1,0 +1,16 @@
+# Ignore node_modules in frontend
+../frontend/node_modules/
+
+# Ignore vendor in backend
+../backend/vendor/
+
+# Ignore log files
+../backend/logs/*
+
+# Ignore environment files
+../backend/.env
+../frontend/.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
