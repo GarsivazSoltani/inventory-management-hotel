@@ -1,0 +1,19 @@
+{
+    "name": "hotel-inventory/backend",
+    "description": "Backend for Hotel Inventory Management System",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HotelInventory\\Backend\\": "backend/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Garsivaz Soltani",
+            "email": "garsi.soltani@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
