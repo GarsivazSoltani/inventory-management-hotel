@@ -1,2 +1,25 @@
-# Ignore .env file
-.env
+# Node modules
+**/node_modules/
+
+# Vendor directories
+**/vendor/
+
+# Log files
+**/logs/
+
+# Environment files
+**/.env
+
+# Build directories
+**/build/
+**/dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
